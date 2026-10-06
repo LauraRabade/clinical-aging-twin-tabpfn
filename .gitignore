@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Data
+/data/raw/*.csv
+!/data/raw/variables_explained.csv
+/data/raw/*.tsv
+/data/processed/*.csv
+/data/processed/*.parquet
+
+# Local fitted-model references / private credentials
+/models/*.json
+*.tabpfn_fit
+
+# Results generated during local experiments
+/results/*.png
+/results/*.csv
+/results/*.json
+
+# Streamlit
+.streamlit/secrets.toml

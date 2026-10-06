@@ -1,0 +1,17 @@
+# Core
+pandas==2.3.3
+numpy>=2.0,<3.0
+scipy>=1.14,<2.0
+scikit-learn==1.9.0
+matplotlib>=3.9,<4.0
+joblib>=1.4,<2.0
+
+# TabPFN 3.5 hosted client
+# v0.5.2+ supports v3.5_default; 0.6.1 is pinned for reproducibility.
+tabpfn-client==0.6.1
+pyarrow==23.0.1
+
+# App
+streamlit>=1.50,<2.0
+jupyterlab>=4.4,<5.0
+pytest>=8.0,<9.0
